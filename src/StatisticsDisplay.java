@@ -24,8 +24,8 @@ public class StatisticsDisplay implements Display {
     @Override
     public void display() {
         System.out.println("");
-        System.out.println("temperatureMin = " + temperatureMin);
-        System.out.println("temperatureMax = " + temperatureMax);
-        System.out.println("temperatureAverage = " + temperatureTotal/numReadings);
+        System.out.println("Min temp = " + temperatureMin);
+        System.out.println("Max temp = " + temperatureMax);
+        System.out.println("Average temp = " + temperatureTotal/numReadings);
     }
 }
